@@ -15,7 +15,7 @@ st.write("Visualisasi tren penggunaan sepeda berdasarkan waktu dan pengaruh cuac
 # ===============================
 @st.cache_data
 def load_data():
-    return pd.read_csv("bike_clean.csv")
+    return pd.read_csv("day.csv")
 
 df = load_data()
 
@@ -138,3 +138,4 @@ st.markdown("""
 """)
 st.markdown("---")
 st.caption("🚲 Bike Sharing Dashboard | Muhammad Fathir Akbar – Teknik Informatika")
+

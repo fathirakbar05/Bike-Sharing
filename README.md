@@ -87,10 +87,3 @@ Program Studi Teknik Informatika
 Fakultas Ilmu Komputer
 
 ---
-
-Kalau kamu mau, aku bisa:
-a) Menyesuaikan README agar **lebih formal akademik**
-b) Memendekkan versi khusus **pengumpulan tugas**
-c) Menambahkan badge GitHub (Python, Streamlit)
-
-Tinggal bilang saja 💪

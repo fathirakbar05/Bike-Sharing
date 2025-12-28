@@ -1,9 +1,3 @@
-Baik 👍
-Berikut **isi README.md yang sudah lengkap, rapi, dan sesuai instruksi**, siap kamu **copy–paste langsung ke GitHub**.
-Aku sesuaikan dengan **project Streamlit + analisis Bike Sharing** yang kamu buat.
-
----
-
 # 🚲 Dashboard Analisis Bike Sharing
 
 ## 📌 Deskripsi Proyek
@@ -15,7 +9,7 @@ Hasil analisis disajikan dalam bentuk **dashboard interaktif menggunakan Streaml
 
 ## 📂 Dataset
 
-Dataset yang digunakan adalah **Bike Sharing Dataset** yang akan melalui proses pembersihan data sebelum dipakai (`day.csv`).
+Dataset yang digunakan adalah **Bike Sharing Dataset** yang telah melalui proses pembersihan data (`day.csv`).
 
 **Beberapa atribut utama dalam dataset:**
 
@@ -29,36 +23,29 @@ Dataset yang digunakan adalah **Bike Sharing Dataset** yang akan melalui proses 
 
 ## ▶️ Cara Menjalankan Proyek
 
-### 1️⃣ Menjalankan Notebook (Opsional)
+### Menjalankan Notebook
 
 Jika ingin menjalankan analisis melalui notebook:
 
-```bash
-pip install -r requirements.txt
-```
+1. Buka file notebook (.ipynb) pada repository ini.
+2. Klik "Open in Colab".
+3. Pastikan kamu memasukkan dataset day.csv
+4. Lalu jalankan semua setiap cell secara berurutan
 
-Kemudian buka file notebook:
-
-```
-ML_Muhammad_Fathir_Akbar.ipynb
-```
-
----
-
-### 2️⃣ Menjalankan Dashboard Streamlit (Wajib)
+### Menjalankan Dashboard Streamlit
 
 Pastikan sudah berada di direktori project, lalu jalankan perintah berikut:
 
-```bash
 pip install -r requirements.txt
 streamlit run app.py
-```
 
 Jika berhasil, dashboard akan terbuka di browser pada:
 
-```
 http://localhost:8501
-```
+
+### Dashboard Online
+
+Dashboard online dapat diakses dengan link berikut ini : https://bike-sharing-ngsv2yveeapmk4spwxufpw.streamlit.app/
 
 ---
 
